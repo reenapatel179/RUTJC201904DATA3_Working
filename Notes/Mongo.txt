@@ -1,0 +1,39 @@
+pip install pymongo
+
+pip install bs4
+
+pip install splinter
+
+mongod - start server
+
+mongo - start shell
+
+db
+
+dbs
+
+use travel_db
+
+show dbs
+
+show collections
+
+ db.destinations.insert("continent":"Africa","country":"Morocco","major_cities":["casablanca","Fez","Maarakech"]})
+
+ db.destinations.find()
+
+ db.destinations.find().pretty()
+
+db.destinations.find({"country":"Morocco"}).pretty()
+
+ db.student.update({"Name":"Pinal"},{$set:{"Age":35}})
+
+
+Diff between SQL and MOndo
+
+Mondo Update one record by default,
+
+SQL update all records by default
+
+db.destinations.drop()
+

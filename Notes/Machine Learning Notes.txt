@@ -1,0 +1,221 @@
+X is alway independent and Y is Dependent
+
+Thinnk about house prose and square foot relation where x is sqr foot and price is Y
+
+Y = MX + B
+
+B is constant
+
+What if M is slope of the line?
+
+Look into below script
+
+-----------------------------------------------------
+
+from sklearn.datasets import make_regression
+
+X, y = make_regression(n_samples=20, n_features=1, random_state=0, noise=4, bias=100.0)
+
+------------------------------------------------------
+
+from sklearn.datasets import make_s_curve
+
+data, color = make_s_curve(100, random_state=0)
+plt.scatter(data[:,0], color)
+----------------------------------
+from sklearn.linear_model import LinearRegression
+model = LinearRegression()
+model
+
+
+--Find more information about make_regression, LinearRegression and make_s_curve
+
+What is noise?
+
+Why we have reshape (x_min.reshape(-1,1)) value?
+
+
+------------------------------
+
+
+
+Fix first code
+
+y_min_predicted = model.predict(x_min.reshape(-1,1))
+y_max_predicted = model.predict(x_max.reshape(-1,1))
+print(f"Actual Min Value: {y_min_actual}")
+print(f"Predicted Min Value: {y_min_predicted}")
+print(f"Actual Max Value: {y_max_actual}")
+print(f"Predicted Max Value: {y_max_predicted}")
+
+---------------------------
+
+Slide Type
+Validation
+We also want to understand how well our model performs on new data.
+
+One approach for this is to split your data into a training and testing dataset.
+
+You fit (train) the model using training data, and score and validate your model using the testing data.
+
+This train/test splitting is so common that Sklearn provides a mechanism for doing this.
+
+---------------------
+
+A "good" MSE score will be close to zero while a "good" R2 Score will be close to 1.
+
+R2 Score is the default scoring for many of the Sklearn models
+
+-----------------------------
+
+Testing and Training Data
+In order to quantify our model against new input values, we often split the data into training and testing data. The model is then fit to the training data and scored by the test data. Sklean pre-processing provides a library for automatically splitting up the data into training and testing
+
+from sklearn.model_selection import train_test_split
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=42)
+
+-----------------------------
+
+Multiple Linear Regression
+Slide Type
+Multiple Linear Regression simply means that you have more than one feature variable.
+
+For the Housing Price example, you may have features like this:
+
+𝑌𝑖 = 𝐵𝑖𝑎𝑠0 + 𝑊𝑒𝑖𝑔ℎ𝑡1 sq_feet + 𝑊𝑒𝑖𝑔ℎ𝑡2 num_bedrooms + 𝑊𝑒𝑖𝑔ℎ𝑡3 num_bathrooms
+
+Note: The weights are how important each feature is to the equation. This is the part that the algorithm has to learn.
+
+The generic formula is:
+
+$Y_i = Bias_0 + Weight_1 Feature_1 + Weight_2 Feature_2 + \ldots + Weight_p Feature_p$
+
+The equation is often written as:
+
+𝑌𝑖=𝜃0+𝜃1𝑋𝑖1+𝜃2𝑋𝑖2+…+𝜃𝑝𝑋𝑖𝑝 
+Slide Type
+Generate a linear dataset with 3 features
+
+from sklearn.datasets import make_regression
+
+n_features = 3
+X, y = make_regression(n_samples=30, n_features=n_features, 
+                       n_informative=n_features, random_state=42, 
+                       noise=0.5, bias=100.0)
+print(X.shape)
+
+Slide Type
+With 3 or more dimensions, it becomes harder to visualize the linear trends in our data
+
+---------------------------------------
+
+FInd out difference between LOgistic and Linear reggression 
+
+Logistic
+
+Linear = base on continuos line, can be many different numbers and find best output
+
+Logistic =  0 or 1 , True or False , can have 2 outputs
+
+Decision Tree = FInal answer after testing logistic regressions , 
+Find more details about decision tree
+
+What is Random Forest?
+
+Hold Shift + Tab to see more deatils in jupyter notebook
+
+-------------------------
+
+K means find nearest neighbours
+
+Not popular machine learning method
+
+
+
+------------------------
+
+Precision and Recall
+
+Actual Class
+Predicted Class
+
+Confusion Matrix table had wrong values : Please google for accurate ans
+
+go to : geeks for geeks.org wensite for more information confusion metrix
+
+ 
+You cant have false negative 
+
+TP = True Positive
+TN = True Negative
+FP = False Positive
+FN = False Negative 
+
+precisio = TP/(TP + TN)
+
+Recall = TP / (TP +FP)
+
+Search more deatils on f1- score , precision and recall
+
+-----------------------------------------------
+
+Admin 3:34 PM
+@channel A lot of you are asking for additional resources for Machine Learning. Here are some extra videos of the lessons that you can watch at your convenience for a different perspective:
+1: https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9644eee9-4673-4107-bfc7-a89100f924ba
+2: https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a7866f95-550e-47da-a107-a89401847672
+3: https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f41f4277-27b6-4462-a187-aa88002a53f2
+Panopto
+22.1 - Introduction to Machine Learning - 2018 February 24
+Panopto
+22.2 Classification and Clustering - 2018 February 28
+Panopto
+Lesson 21.3
+
+----------------------------
+
+
+pip install keras
+
+(probably) pip install tensorflow (edited) 
+
+Google's Neural Network
+
+Lower learning rate is better if noise is high
+
+http://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.88478&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false
+
+
+Neural Network accept only vector as a value so we can use only numbers --- no text 
+
+
+Loss and Accuracy should go down when you run training  model
+
+----------------------------------------------------
+
+Model is following sequential order
+Below example has 3 layers Input Layer --> Hidden Layer --> Out put Layer
+
+Each layer can use different activation function and number of units
+
+deep_model = Sequential()
+deep_model.add(Dense(units=6, activation='relu', input_dim=2)) -- Input Layer
+deep_model.add(Dense(units=6, activation='relu')) ---> Hiddent layer
+deep_model.add(Dense(units=2, activation='softmax')) --> Out put Layer
+
+
+What is Model loss nd Model Accuracy in Normal Neural Network vs Deep Neural Network? RnD
+
+
+X = Input
+y = Output
+input_dim =  20 mean 20 column or variables
+
+WHy we have only 2 nodes in output node?
+
+
+
+
+
+
+

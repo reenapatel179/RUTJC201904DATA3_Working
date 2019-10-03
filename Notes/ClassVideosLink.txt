@@ -1,0 +1,679 @@
+John Dougherty 9:30 PM
+To install the latest version of a package:
+pip install (library)
+If you have the library installed and want to upgrade it:
+pip install (library) -U
+See https://stackoverflow.com/questions/50316939/pip-install-the-latest-version
+Stack OverflowStack Overflow
+pip install the latest version
+I am new to python and django. In my requirements\common.txt I have the following line with version: django-simple-captcha==0.5.* the problem is that when I run pip install -r requirements\common...
+
+earthquke.usgs.gov -- for earth quake data
+
+--------------------------------------------
+
+4/23/2019
+
+Students will understand the fundamental building blocks of all programming languages: variables, arrays, conditionals, loops, and functions
+* Students will understand how to create simple VBA macros to trigger pop ups and change cell values
+* Students will gain practice in writing VBA subroutines that utilize variables and conditionals
+* Students will begin to develop their essential coding skills of syntax recollection, pattern recognition, problem decomposition, and debugging
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=954af31e-c969-44a4-9da1-aa380172a0bd
+
+4/27/2019
+
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9c09ba1f-cd8f-4b97-a4a3-aa3c00e6dc3a
+
+# Star Counter
+## Instructions
+* Create a VBA Script that tallies the number of "Full Stars" per row and enters them into the Total column. Starter Code is provided, but feel free to start from scratch if you want an extra challenge :
+
+5/2/2019
+
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e7a5a716-ab71-46b9-9c29-aa410174321c
+
+
+
+
+
+
+
+-------------------------------------
+
+May 21 - 2019
+
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a89625f4-1356-4d74-8ab1-aa5401729d4d
+
+May 23rd
+
+Jose De La Cruz 6:50 PM
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8fcf6b1b-0bdc-4caa-879d-aa560172d30e
+
+May 28 
+
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b16d28d9-30e6-4649-a474-aa5b0172b4eb
+
+John Dougherty 8:53 PM
+https://developer.nytimes.com/docs/articlesearch-product/1/overview
+https://developer.nytimes.com/accounts/create
+5ZvAjUHnELnQAuuzQuMILAepkP6xe7aL
+https://api.nytimes.com/svc/search/v2/articlesearch.json?q=election&api-key=5ZvAjUHnELnQAuuzQuMILAepkP6xe7aL
+
+May 30th
+
+John Dougherty 6:26 PM
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8d106d35-e04b-4d54-b170-aa5d0171e345
+John Dougherty 6:37 PM
+
+
+api_key = "3d0acb7d492abf49e941ffb3cdadb16d"
+
+pip install openweathermapy
+
+June 1
+
+John Dougherty 10:01 AM
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e235b497-00ab-41a3-a34c-aa5f00e703dc
+
+John Dougherty 10:48 AM
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8ec76af9-73db-4dcc-b77b-aa5f00f3e4fb
+
+John Dougherty 12:39 PM
+https://console.developers.google.com/?pli=1
+accounts.google.comaccounts.google.com
+Google Cloud Platform
+Google Cloud Platform lets you build, deploy, and scale applications, websites, and services on the same infrastructure as Google.
+John Dougherty 12:46 PM
+conda install -c conda-forge gmaps
+John Dougherty 1:13 PM
+api_key = "85ac64b6b5a9c0901b00329d1ef41f0c53ccfc98"
+John Dougherty 1:47 PM
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8ec76af9-73db-4dcc-b77b-aa5f00f3e4fb
+
+June 4
+
+John Dougherty 6:30 PM
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=80e247f0-6fdb-4d5d-94b3-aa620172bf48
+
+June 20th
+
+John Dougherty 7:50 AM
+Good morning! Tonight we will be starting to look at SQL databases. Please check out the instructions at the link below to get the installation process as far along as possible before class.
+https://github.com/coding-boot-camp/DataViz-Lesson-Plans/blob/master/01-Lesson-Plans/09-SQL/Supplemental/InstallationGuides
+We'll be working with Postgres so please follow those instructions
+
+John Dougherty 6:30 PM
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=50e71c32-967a-4932-9236-aa720172bc7f
+
+June 22nd
+
+John Dougherty 10:01 AM
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9845a3cf-2187-4f43-b277-aa7400e702fa
+
+John Dougherty 12:50 PM
+## Movies Ordered By
+In this activity, you will use ORDER BY in combination with other SQL methods to query and order the tables.
+### Instructions
+* Determine the count of actor first names ordered in descending order.
+* Determine the average rental duration for each rating rounded to two decimals. Order these in ascending order.
+* Determine the top 10 average replace costs for movies by their length.
+
+June 25th
+
+John Dougherty 6:30 PM
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=bb9ffb01-3cb0-43e9-bd09-aa770172cdf5
+John Dougherty 7:32 PM
+## Data Modeling
+In this activity, you will design a database model.
+### Instructions
+You are the database consultant at a new university. Your job is to design a database model for the registrar. The database will keep track of information on students, courses offered by the university, and the courses each student has taken.
+* Create a students table that keeps track 
+
+John Dougherty 8:25 PM
+https://app.quickdatabasediagrams.com/#/sign-in
+app.quickdatabasediagrams.comapp.quickdatabasediagrams.com
+QuickDatabaseDiagrams
+Quick Database Diagrams (QuickDBD) is a simple online tool to quickly draw database diagrams by typing.
+John Dougherty 8:53 PM
+## Designing an ERD, Part I
+
+June 27th
+
+conda install -c anaconda sqlalchemy
+conda install -c anaconda sqlite
+
+HectorTA 7:34 PM
+https://docs.sqlalchemy.org/en/13/
+
+Will send a correct link in a few min. we have not done much yet. just install the libraries we slacked on the 01-class-activities channel
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5cb85264-e3d1-4640-8f3c-aa7901770910
+
+
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5cb85264-e3d1-4640-8f3c-aa7901770910
+
+June 29th
+
+HectorTA 10:19 AM
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8c926530-ac20-4cd4-bd8a-aa7b00eb7efa
+
+July 3rd
+
+Anthony Maddatu 11:13 AM
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b542cb42-6a58-4068-b17b-aa7f00f02de3
+
+
+July 6th
+
+Anthony Maddatu 10:12 AM
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9b15ed30-acca-42dd-a4d9-aa8200e9d162
+Joseph Kunz 12:51 PM
+is the panopto link for the second part of class up yet?
+:+1:
+1
+
+John Dougherty 12:53 PM
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9110c47b-2b5e-4d7d-83c7-aa820112ea1f
+
+July 9th
+
+John Dougherty 6:38 PM
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=57f91a9f-67e2-48c3-aee4-aa8501751e7b
+### Instructions
+* Open the [Resources](Resources) folder. Here we have a relatively simple spreadsheet.
+* Create a new HTML document and create a table to represent the data in the spreadsheet.
+
+July 11th
+
+John Dougherty 6:29 PM
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b8d74e8d-9289-4f8e-b440-aa87017272fa
+https://expo.getbootstrap.com/
+
+July 13th
+
+John Dougherty 10:03 AM
+https://docs.google.com/presentation/d/1WaTE7dez-ULmgGmSVJncAPeA4OJv86yXav1lxe-V9lQ/edit#slide=id.g567117b04b_0_29
+
+John Dougherty 9:59 AM
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=255b3547-4268-459a-b2f7-aa8900e66e03
+
+
+# Mongo Class
+## Instructions
+* Use the command line to create a ClassDB database
+* Insert entries into this database for yourself and the people around you within a collection called students
+* Each document should have a field of name with the person's name, a field of favoriteLibrary for the person's favorite Python library, a field of age for the person's age, and a field of hobbies which will hold a list of that person's hobbies.
+* Use the find() commands to get a list of everyone of a specific age before using name to collect the entry for a single person.
+
+* It would be good to Modify the app so that when the record is entered, the current date and time is automatically inserted into the document.
+* Hint: consult the [documentation](https://docs.python.org/3/library/datetime.html) on the datetime library.
+
+July 16th
+
+John Dougherty 6:30 PM
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=59782276-67c3-4144-bc91-aa8c0172d000
+John Dougherty 6:37 PM
+pip install bs4
+John Dougherty 6:54 PM
+# A Soup Starter
+## Instructions
+* Believe it or not, CNN's website for **1996: Year in Review** is still alive on the web: <http://edition.cnn.com/EVENTS/1996/year.in.review/>
+* We have, however, stored the HTML document as a string in your starter file.
+* Your task, should you accept it (and you should), is to use Beautiful Soup to scrape and print the following pieces of information:
+1. The **title**
+2. All **paragraph** texts
+3. The top 10 headlines (warning: this one is a bit tricky, and may not come out perfectly!)
+## Hints
+* For the third task, you will need a means of filtering the data, perhaps over multiple iterations.
+## Bonus
+* If you finish early, head over to the [Beautful Soup documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) to read up on accessing attributes and navigating the DOM.
+
+July 18th
+
+John Dougherty 6:26 PM
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c23599cf-3b05-4792-bd32-aa8e0171a765
+John Dougherty 6:48 PM
+# Rendering a Homepage
+## Instructions
+* In app.py, create a home route that returns name and hobby variables.
+* In index.html, create a header with a welcome message that incorporates the name variable and a paragraph that displays the hobby variable returned from the back end.
+## Bonus
+
+
+
+July 20th 
+
+Anthony Maddatu 10:58 AM
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=decc3779-f205-4847-b7b0-aa9000ec612a
+
+
+July 22nd 
+
+Anthony Maddatu 7:25 PM
+Data Warehouses are not the only things that use ETL programs. This is real world example of what an ETL is used for (I know it is a one of kind example but there are other unique examples out there - its just that this one was built by me). This ETL was used to grab image data from cameras, size data from a real mat cutting machine, price data csvs, mat color csvs and put them into a custom web optimized image database and transform script. This kind of image transformation script would not have happened if it were not for ETL.
+https://www.custompictureframes.com/imagemanipulator.jpg?v=2&type=imagemanipulator_default&mode=frame_thumb&imagename=images%2Fcropped%2F80984-cropped.jpg&width=18&height=28&framewidth=1.125&thumbnail=700x700&background=white&format=jpg(9 kB)
+
+July 27th - Java
+
+Panopto has decided it needs to update. I will get the webcast link in a few minutes
+https://docs.google.com/presentation/d/1WKaRtEPAEXSOqb0BZ_gPJC1pCSRhm8d6_h1f-48NU9Y/edit#slide=id.g4831362597_2_495
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b5ba41f1-a9c4-46b2-b50a-aa9700e81b35
+
+July 30th - Javascript
+
+John Dougherty 6:29 PM
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e641f0e3-2081-4206-8f43-aa9a0172b450
+
+
+
+August 8/1/2019
+
+# HOMEWORK HINTS
+https://www.w3schools.com/html/html_form_input_types.asp
+w3schools.comw3schools.com
+HTML Input Types
+Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, PHP, Python, Bootstrap, Java and XML.
+https://www.w3schools.com/js/js_events.asp
+w3schools.comw3schools.com
+JavaScript Events
+Well organized and easy to understand Web building tutorials with lots of examples of how to use HTML, CSS, JavaScript, SQL, PHP, Python, Bootstrap, Java and XML.
+eventhandler-onclick-attribute 
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+function blue(){
+Click to expand inline (14 lines)
+
+
+Anthony Maddatu 6:08 PM
+
+
+John Dougherty 6:31 PM
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fcc9d7f5-b74c-4dd3-9dc7-aa9c01732461
+
+August 3rd
+
+Anthony Maddatu 10:12 AM
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=37551824-f6b0-4f3f-aac4-aa9e00ded3e4 javascript review hints shared... (edited) 
+
+# Greek gods
+In this activity, you will create a horizontal bar chart for the top 10 greek gods according to their search results.
+## Instructions
+* Sort the data array of objects by greekSearchResults.
+* Slice the top 10 objects from the array.
+* Create a horizontal bar chart that plots the top 10 greek gods based on their search results in descending order.
+## Hints
+* Use the following links to help you figure out how to sort the array of objects by the greekSearchResults values.
+ \*[Stackoverflow sorting objects](https://stackoverflow.com/a/979289)
+ * [mdn docs on the sort function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
+* After sorting, slice the first 10 objects for your plots.
+ * [mdn docs on the splice function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice)
+Stack OverflowStack Overflow
+Sorting an array of JavaScript objects by property
+I read the following objects using Ajax and stored them in an array: var homes = [ { "h_id": "3", "city": "Dallas", "state": "TX", "zip": "75201", "pric...
+MDN Web DocsMDN Web Docs
+Array.prototype.sort()
+The sort() method sorts the elements of an array in place and returns the sorted array. The default sort order is built upon converting the elements into strings, then comparing their sequences of UTF-16 code units values.
+MDN Web DocsMDN Web Docs
+Array.prototype.slice()
+The slice() method returns a shallow copy of a portion of an array into a new array object selected from begin to end (end not included) where begin and end represent the index of items in that array. The original array will not be modified.
+
+August 6th
+
+John Dougherty 6:31 PM
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f1c28dd5-7b37-40dd-8435-aaa101730fc2
+John Dougherty 7:01 PM
+# Dynamic Pie Chart with Dropdown
+In this activity, you will use a dropdown selector to choose from one of three datasets to update the pie chart.
+
+### Copyright
+Copyright Trilogy Education Services © 2017. All Rights Reserved.
+quandl.comquandl.com
+Quandl
+The source for financial, economic, and alternative datasets, serving investment professionals.
+plot.lyplot.ly
+Range Slider and Selector
+Now you can implement range sliders and selectors in your Plotly graphs purely with python!
+
+John Dougherty 7:46 PM
+var apiKey = "gZk62xCqd2BsdTorLAjH";
+
+--
+
+var apiKey = "YOUR KEY HERE";
+
+/* global Plotly */
+var url =
+  `https://www.quandl.com/api/v3/datasets/WIKI/AMZN.json?start_date=2016-10-01&end_date=2017-10-01&api_key=${apiKey}`;
+
+/**
+ * Helper function to select stock data
+ * Returns an array of values
+ * @param {array} data
+ * @param {integer} index
+ * index 0 - Date
+ * index 1 - Open
+ * index 2 - High
+ * index 3 - Low
+ * index 4 - Volume
+ */
+
+AUgust 8
+
+John Dougherty 6:30 PM
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6461cffb-770b-44d1-849b-aaa30172bb90
+John Dougherty 6:40 PM
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6461cffb-770b-44d1-849b-aaa30172bb90
+
+John Dougherty 7:42 PM
+pip install flask_sqlalchemy
+
+
+August 10
+
+John Dougherty 10:04 AM
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=60cd00ea-38ba-4228-a706-aaa500e7e899
+Meriedith Umali 10:41 AM
+For the folks watching remotely
+File from iOS 
+File from iOS
+
+
+John Dougherty 10:48 AM
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=555ad9d2-2bd8-4cb4-be10-aaa500f3dca7
+Angela 11:04 AM
+hey guys, for the first activity, the javascript file isnt connected to the html
+slide this in:
+<script src="demo.js"></script>
+and then the info should show in the console
+
+August 13
+
+John Dougherty 6:26 PM
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=52a7007a-0042-465e-aac4-aaa80171daa6
+
+source activate PythonData
+python -m http.server // run this command in your root folder
+
+AUgust 15 D3 Advanced
+
+John Dougherty 6:30 PM
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ecdf327a-1f58-448c-b1b8-aaaa01727a3f
+Meriedith Umali 6:50 PM
+
+AUgust 17 Leaflet 
+
+Leaflet and Mapbox are like penut butter Jelly mean we can use them together
+
+WHat is the difference between Leaflet and Mapbox
+
+John Dougherty 10:04 AM
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fd9c71ba-6c34-4e29-9d00-aaac00e806da
+
+
+* Students should understand the advantages gained by visualizing data in a geographical context.
+* Students should be able to create a new map and perform basic functions with the Leaflet JavaScript library.
+* Students should gain an understanding of the GeoJSON format.
+new messages
+https://www.nytimes.com/interactive/2014/upshot/mapping-the-spread-of-drought-across-the-us.html?_r=0
+The New York TimesThe New York Times | By MIKE BOSTOCK and KEVIN QUEALY
+Mapping the Spread of Drought Across the U.S.
+Maps and charts updated weekly show the latest extent of the drought in the United States.
+http://leafletjs.com/
+leafletjs.comleafletjs.com
+Leaflet — an open-source JavaScript library for interactive maps
+Leaflet is a modern, lightweight open-source JavaScript library for mobile-friendly interactive maps.
+
+Create Api key - https://account.mapbox.com/
+
+https://leafletjs.com/plugins.html#overlay-animations
+
+http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson
+
+----------
+
+August 20 /Leaflet
+
+John Dougherty 6:34 PM
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ced69ab8-d8af-4aa6-9bde-aaaf0173f736
+
+John Dougherty 6:43 PM
+http://data.beta.nyc/dataset/pediacities-nyc-neighborhoods
+
+John Dougherty 6:53 PM
+https://leafletjs.com/plugins.html
+
+August 22nd
+
+John Dougherty 9:52 AM
+Good morning! In preparation for tonight's class please see the link for installing R. It may have already been installed depending on how you installed Anaconda but please give it a look. There is time set aside for this problem during class but if you can do it beforehand it will make things easier.
+:+1:
+1
+
+https://www.rstudio.com/products/rstudio/download/#download
+RStudioRStudio
+Download RStudio - RStudio
+Download the RStudio IDE or RStudio Server.
+
+And, you shouldn't need it but just in case
+https://cran.rstudio.com/bin/windows/Rtools/
+cran.rstudio.comcran.rstudio.com
+Building R for Windows
+R for Windows FAQ
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=dd3ebde6-d002-490d-935c-aab10172ad66
+John Dougherty 6:38 PM
+install.packages("splitstackshape")
+install.packages("tidyverse")
+install.packages("reshape2")
+install.packages("devtools")
+install.packages("plotly")
+install.packages("crosstalk")
+install.packages("DT")
+install.packages("fivethirtyeight")
+
+
+--------------------------
+
+August 24th --R
+Meriedith Umali 10:04 AM
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c09438f5-7bf5-4911-b451-aab300e7d514
+
+Meriedith Umali 12:34 PM
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a4dd611c-59f0-4bef-82f9-aab30111144f
+
+We're starting up the lessons for part 2 now.
+
+
+
+--------------------------------------------------
+Tableau
+
+August 27th 2019
+
+John Dougherty 6:30 PM
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6d73ae44-424a-43c1-9a38-aab60172a360
+
+John Dougherty 6:34 PM
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=780a9954-9eec-4a6c-97f4-aab60173eff0
+
+August 29th 2019
+
+John Dougherty 6:30 PM
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c25f3bfd-ad8e-4ff8-b89d-aab80172e176
+
+
+Sept 3rd 2019 Tableau last class
+
+John Dougherty 6:31 PM
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=569bc499-357a-42fa-b530-aabd01731040
+
+In this open-ended activity, students will use their Tableau skills to explore data and create visualizations.
+Students will work in pairs or groups of three.
+They must use at least two data sources.
+They may use their previous group projects for inspiration. However, they should not simply replicate their old projects in Tableau.
+When working with data, they may need to clean it with a tool like Pandas before bringing it into Tableau.
+They will give a brief (3-5 minutes) presentation to the class with a summary of their visualizations and findings.
+John Dougherty 8:29 PM
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=75a58350-44c2-468e-a474-aabe0007f5a8
+
+Sept 5th - 2019 - Machine learning first class 
+
+John Dougherty 6:29 PM
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9e2d6b60-c0f3-420f-af82-aabf01729dab
+### Class Objectives
+* Students will understand how to calculate and apply regression analysis to datasets.
+* Students will understand the difference between linear and non-linear data.
+* Students will understand how to quantify and validate linear models.
+* Students will understand how to apply scaling and normalization as part of the data preprocessing step in machine learning.
+
+https://docs.google.com/presentation/d/157zggSgnaPyNHjDFlpMScMG-IMxZRYMhy34oKDcyfd0/edit#slide=id.g58039399d9_1_475
+
+
+Sept 7th - Machine learning - Logical rg Decision tree and K means
+
+John Dougherty 10:15 AM
+https://docs.google.com/presentation/d/1gWVYKPP0ZyRWN7hpeNTdZxkKdlRX8UdI5Kzw-aOVG40/edit#slide=id.p
+That's the second slideshow link
+Here's the third.
+https://docs.google.com/presentation/d/1qPXEsZ13syOZQz_D_q83yGGlXC8jhIu-NZ8d6EXIaYE/edit#slide=id.p
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=479e4369-db00-452a-a0a3-aac100ec0612
+I'm using my phone for a hotspot so hopefully the recording quality is ok. Once IT comes and sets the wifi up I'll start it over
+John Dougherty 11:47 AM
+I'm ending the recording for now. I'll start another after lunch
+Raj Shah 11:50 AM
+python -m pip install --upgrade pip
+If you need to upgrade the pip
+John Dougherty 12:26 PM
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b26ad5a4-7d02-422b-a8d7-aac1010ef778
+Bamidele Funminiyi Samuel 12:38 PM
+conda install python-graphviz  fix the tree graph
+
+https://dataaspirant.com/2017/01/30/how-decision-tree-algorithm-works/
+DataaspirantDataaspirant
+How Decision Tree Algorithm works
+Learn how the decision tree algorithm works by understanding the split criteria like information gain, gini index ..etc. With practical examples.
+
+http://dataaspirant.com/wp-content/uploads/2017/01/Decision_tree.jpg
+Mike Toriello 12:48 PM
+Output of graphviz for decision tree instruction activity
+
+anyone that wants to try it on their machine, you'll need to access environment variables, and add the path graphviz is installed in.
+The path I added for example is: C:\Users\mtoriello0725\Anaconda3\envs\PythonData\Library\bin\graphviz
+
+
+10th Sept : Review Decision Tree, Logical regression
+
+Admin 3:34 PM
+@channel A lot of you are asking for additional resources for Machine Learning. Here are some extra videos of the lessons that you can watch at your convenience for a different perspective:
+1: https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9644eee9-4673-4107-bfc7-a89100f924ba
+2: https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a7866f95-550e-47da-a107-a89401847672
+3: https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f41f4277-27b6-4462-a187-aa88002a53f2
+Panopto
+22.1 - Introduction to Machine Learning - 2018 February 24
+Panopto
+22.2 Classification and Clustering - 2018 February 28
+Panopto
+Lesson 21.3
+
+Meriedith Umali 7:23 PM
+resources to learn git: http://try.github.io/
+
+git cheatsheet: https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf
+Reena patel 8:35 PM
+https://public.tableau.com/en-us/gallery/tableau-book-calculations
+:+1:
+4
+http://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.88478&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false
+
+
+
+
+12 th Sept :Machine leanrning Newral network and ddep learning
+
+pip install keras
+
+(probably) pip install tensorflow (edited) 
+
+
+John Dougherty 6:36 PM
+* Students will be able to articulate specific problems on which neural networks perform well.
+* Students will be able to use Keras to build and train neural networks.
+* Students will be able to use Keras to build and a train a deep neural network.
+* Students will understand unsupervised learning and how to apply the Kmeans algorithm.
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7aada972-e769-426c-ba5c-aac60174a19b
+
+14th sept 
+
+John Dougherty 10:02 AM
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ef8efd42-0772-4f37-84ab-aac800e77713
+John Dougherty 12:42 PM
+
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7148865b-05c0-43cc-b056-aac80113416d
+
+21st Sept Big Data MRjob
+-------------------------------------------------------
+
+Use below syntex to run python code for MRjob
+ python hot.py ../Resources/austin_weather_2017.csv
+-----------------------------------------------------------
+John Dougherty 6:32 PM
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5f704c29-15ae-49b9-a295-aacb01736895
+John Dougherty 7:50 PM
+## Snow in Austin
+### Instructions
+Use mrjob to determine the dates in which it snowed in Austin, Texas.
+### Bonus
+Calculate the maximum amount of snow per date.
+**Hint:** Use the max function to reduce the values for a date to a single value.
+
+9/21/2019
+
+Mike Toriello 8:02 PM
+https://scikit-learn.org/stable/tutorial/machine_learning_map/index.html
+This is a pretty handy diagram from sklearn to figure out what machine learning model you should use in your project.
+
+John Dougherty 9:55 AM
+Link for today's slides from Zach https://docs.google.com/presentation/d/1nEJSNsgXTTlpdM6y1uNLKq-Qbu02IUkdiubibrLfbno/edit?usp=sharing
+John Dougherty 10:09 AM
+Panopto link - Special Instructor 
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3d3a9025-de76-44b8-a947-aacf00e85821
+
+Mike Toriello 1:35 PM
+https://colab.research.google.com/notebooks/welcome.ipynb
+Meriedith and I have been checking out Google collab. Seems like a fun way to collaborate on python notebooks with each other. Packages seem to be pre-installed on Google server as well, so should be plug and play
+
+9/24/2019 Pyspark Lesson
+
+John Dougherty 6:27 PM
+Please make sure you sign up for Zeppelin https://www.zepl.com/register
+zepl.comzepl.com
+Zepl: Data science notebook hub
+Collaborative data science in a powerful, shared workspace
+John Dougherty 6:32 PM
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=aa317514-cdd6-4a94-a73f-aad201738b9a
+new messages
+John Dougherty 7:10 PM
+## Demographic DataFrame Basics
+### Instructions
+In this activity, you will get the chance to explore Spark DataFrames. Follow the comments in Jupyter Notebook to clean and display stock data using Spark DataFrames. Remember to consult the [documentation](http://spark.apache.org/docs/latest/api/python/index.html).
+
+
+---------------------------------------
+
+BIg Data Links:
+
+Hi all, here are past Panopto links on Big Data for additional reference.
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=94fb2f70-d1e2-4f61-8417-a88d01854bb8
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=977b8577-33c0-4dbb-9942-a88f01832965
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=82d67391-968a-46db-9bf3-aa46001e81db (edited) 
+Panopto
+21.1 - Big Data With MrJob and Hadoop - 2018 February 20
+Panopto
+21.2 - Big Data In The Cloud - 2018 February 22
+
+
+-------------------------- Resume Links-------------------------
+
+Hey All, just sharing you this useful resume resource - ATS-Friendly Resume Format, to beat the bots and land more interviews :rocket:  https://www.hloom.com/resumes/ats-resume-templates/
+Hloom.comHloom.com
+ATS-Friendly Resume Templates [Format + 27 Samples] | Hloom

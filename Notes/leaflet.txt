@@ -1,0 +1,36 @@
+John Dougherty 10:04 AM
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fd9c71ba-6c34-4e29-9d00-aaac00e806da
+
+* Students should understand the advantages gained by visualizing data in a geographical context.
+* Students should be able to create a new map and perform basic functions with the Leaflet JavaScript library.
+* Students should gain an understanding of the GeoJSON format.
+https://www.nytimes.com/interactive/2014/upshot/mapping-the-spread-of-drought-across-the-us.html?_r=0
+The New York TimesThe New York Times | By MIKE BOSTOCK and KEVIN QUEALY
+Mapping the Spread of Drought Across the U.S.
+Maps and charts updated weekly show the latest extent of the drought in the United States.
+http://leafletjs.com/
+leafletjs.comleafletjs.com
+Leaflet — an open-source JavaScript library for interactive maps
+Leaflet is a modern, lightweight open-source JavaScript library for mobile-friendly interactive maps.
+-----------------------------
+create API key usinf following link
+https://account.mapbox.com/
+
+pk.eyJ1IjoicmVlbmFwYXRlbCIsImEiOiJjanpmcGw0bGYwZGw3M2Nsa2N3M3U1ZmlxIn0.2mnReZdxloFwJb-moml7hA
+sk.eyJ1IjoicmVlbmFwYXRlbCIsImEiOiJjanprZzc5ZHgwMjJsM29xZTB2aDBhNDlxIn0.T8lOPBtv4bICAXYAEEgimg
+
+https://leafletjs.com/plugins.html#overlay-animations
+
+------------------------------------------
+
+Notes:
+
+leaflet has its own CSS for formatting
+
+http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson
+
+John Dougherty 6:43 PM
+http://data.beta.nyc/dataset/pediacities-nyc-neighborhoods
+
+John Dougherty 6:53 PM
+https://leafletjs.com/plugins.html

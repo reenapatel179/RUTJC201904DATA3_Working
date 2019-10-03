@@ -1,0 +1,20 @@
+Bootstrap and amterialize is top CSS style 
+
+<title>Bootstrap Components</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+HTML shortcut: !<tab>
+Html comment ctrl + /
+
+Twitter created bootstrap
+
+Mango DB path
+
+C:\Program Files\MongoDB\Server\4.0\bin
+
+SQL - noSQL
+
+Database - Database
+Table - Collection
+Row - Document
+Column - Field

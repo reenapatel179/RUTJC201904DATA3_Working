@@ -1,0 +1,57 @@
+John Dougherty 9:52 AM
+Good morning! In preparation for tonight's class please see the link for installing R. It may have already been installed depending on how you installed Anaconda but please give it a look. There is time set aside for this problem during class but if you can do it beforehand it will make things easier.
+:+1:
+1
+
+https://www.rstudio.com/products/rstudio/download/#download
+RStudioRStudio
+Download RStudio - RStudio
+Download the RStudio IDE or RStudio Server.
+
+install Rstudio and R
+And, you shouldn't need it but just in case
+https://cran.rstudio.com/bin/windows/Rtools/
+cran.rstudio.comcran.rstudio.com
+Building R for Windows
+R for Windows FAQ
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=dd3ebde6-d002-490d-935c-aab10172ad66
+John Dougherty 6:38 PM
+install.packages("splitstackshape")
+install.packages("tidyverse")
+install.packages("reshape2")
+install.packages("devtools")
+install.packages("plotly")
+install.packages("crosstalk")
+install.packages("DT")
+install.packages("fivethirtyeight")
+
+R is language and R studio is run R. LIke python is running on visual studio code
+
+-------------------
+
+Open R studio
+Go to open file
+select R repo day 1 activity
+Select each line separately and Run (8 lines)
+
+-------------------
+
+R array starts at 1
+VBA also start at 1
+----------------------
+
+Trouble shoot -- When RMD file opens with blank screen
+
+got to file
+got to Reopen with encoding
+select UTF-8 as default setting
+
+Other languages like python starts at 0
+
+-----
+8/24/2019
+
+Meriedith Umali 10:04 AM
+https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c09438f5-7bf5-4911-b451-aab300e7d514
+
+

@@ -1,0 +1,10 @@
+Run below commands to install sqlLite
+conda install -c anaconda sqlalchemy
+
+conda install -c anaconda sqlite
+HTML shortcut: !<tab>
+Html comment ctrl + /
+
+
+
+

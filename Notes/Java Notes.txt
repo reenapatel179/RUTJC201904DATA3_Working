@@ -1,0 +1,210 @@
+Diff between Java and Java script
+
+What is java script original name?
+
+Research on Consol.log? wil print the row
+
+How Java script, react and angular JS related?
+
+Java script can be used with bootstrap CSS
+
+How to embeded java script code in HTLM - 
+
+What is duck type languages???????
+
+Why we use === sign?
+
+Check results 1. go to HTML code 2. do the inspect 3. click on console tab
+
+Foo = 5 -- assigning value 5 tp foo variable
+
+-- if (foo = 5) {.....} if you want to test value then, if were to run test runs as true value
+
+-- if (foo === 5) { } check foos data type if it is same, if were to run test 
+
+How to run java script in Node js.....?
+
+
+Java script is case sensitive language
+
+Install node js and you can run node name of file.js
+
+Ran node hello-variable-world.js successfully in gitbash
+
+Diff baby blue and blue
+
+
+concatination: if you put + sign and add two string then it will concatinate results 
+
+Ex:
+
+var num1 = 15;
+var num2 = "12";
+
+console.log(num1 + num2); result 1512
+console.log(num1 - num2); result 3
+
+console.log("foo" - num2); result NaN (Not a Number)
+
+&& -- // Checks for two conditions to be met using &&
+if (x === 1 && y === 10)
+
+-----
+
+if and nested if loops
+
+// Nested if statements
+if (x < 10) {
+  if (y < 5) {
+    console.log("x is less than 10 and y is less than 5");
+  }
+  else if (y === 5) {
+    console.log("x is less than 10 and y is equal to 5");
+  }
+  else {
+    console.log("x is less than 10 and y is greater than 5");
+  }
+}
+
+
+--- 
+for loops
+
+student.foreach -- check sytex, second option to run for loop
+for(i = 0;i < 10 ; i++)
+{
+console.log(i);
+
+}
+
+// Prototypical use case increments loop counter by one on each iteration
+for (var i = 0; i < 10; i++) {
+  console.log("Iteration #", i);
+}
+
+// Looping through an array
+var students = ["Johnny", "Tyler", "Bodhi", "Pappas"];
+
+for (var j = 0; j < students.length; j++) {
+  console.log(students[j]);
+}
+------------------
+Array
+--------------------------
+var test = ["a","b"]
+
+var test = ['a','b']
+
+/ Use indexing to access an array item
+console.log("Use indexing to access an array item:");
+var firstLetter = lettersArray[0];
+var secondLetter = lettersArray[1];
+console.log(firstLetter);
+console.log(secondLetter);
+
+
+// Use push() to append an item to an array
+lettersArray.push("e");
+lettersArray.push("f");
+console.log("Use push() to append an item to an array:");
+console.log(lettersArray);
+console.log("==========");
+
+// Use slice() to return selected items of an array
+console.log("Use slice() to return selected items of an array");
+var slicedArray1 = lettersArray.slice(1);
+// Return the first three items of an array
+var slicedArray2 = lettersArray.slice(0, 3);
+// Return the second and third items of an array
+var slicedArray3 = lettersArray.slice(1, 3);
+
+Use console.table to pront values
+Use Array.filter when you want to filter array.
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
+
+// Use join() to return items of an array into a single string
+var joinedArray = lettersArray.join(", ");
+console.log("Use join() to return items of an array into a single string:");
+console.log(joinedArray);
+
+// anotherJoinedArray = lettersArray.join("***");
+// console.log(anotherJoinedArray);
+console.log("==========");
+
+
+filter
+foreach
+map
+
+
+// A JavaScript string
+var soundOfMusic = "The hills are alive with the sound of music";
+
+console.log("This is a string:");
+console.log(soundOfMusic);
+
+// Use indexing to access a string character
+console.log("Use indexing to access a string character:");
+console.log(soundOfMusic[0]);
+console.log(soundOfMusic[5]);
+
+// Split a string into an array of substrings
+// Here, split the string where spaces are found
+var soundArray = soundOfMusic.split(" ");
+
+console.log("Use split() to split a string into an array of substrings:");
+console.log(soundArray);
+
+---------------------------------------------------------------------
+
+30th July Javascript Notes
+
+There are three versions of Javascript and ES 6 is polupar 
+
+// `forEach` automatically iterates (loops) through each item and
+// calls the supplied function for that item.
+// This is equivalent to the for loop above.
+students.forEach(printName);
+
+// You can also define an anonymous function inline
+students.forEach(function(name) {
+  console.log(name);
+});
+
+In Java dictionary is called as an object
+
+var theStagesOfJS = ["confidence", "sadness", "confusion", "realization", "debugging", "satisfaction"];
+
+// Using the .map method
+var mapSimpleArray = theStagesOfJS.map(function(item) {
+  return item;
+});
+
+console.log(mapSimpleArray);
+
+// Map will also provide the index position of the array.
+// This is similar to enumerate in Python.
+var mapArrayWithIndex = theStagesOfJS.map(function(item, index) {
+  return `Stage ${index}: ${item}`;
+});
+
+console.log(mapArrayWithIndex);
+
+// Note: The original array is unchanged
+console.log(theStagesOfJS);
+
+
+Arrow function -- Lambda functions
+
+
+
+
+
+
+
+
+
+
+
+
+
