@@ -14,6 +14,7 @@ var ul = d3.select("body").append("ul");
 
 
 /* 4. Imagine three <li> elements already exist on the page.  Create code to update the text of those elements while also adding three new elements to match the array below. */
+// Leave the number 3 code uncommented as it is needed for number 4 to work properly.
 var arr = [1, 1, 2, 3, 5, 8];
 var ul = d3.select("ul");
 // YOUR CODE HERE //
@@ -21,4 +22,5 @@ var ul = d3.select("ul");
 
 /* Bonus - Refactor your solution to number 4 above using the ES6 syntax for arrow functions. Then, modify the code to set the text of each
 element to "<index in the array>: <item from the array>" */
+// Be sure to comment out your number 4 code (not the arr or ul variables) before running your bonus code.
 // YOUR CODE HERE //

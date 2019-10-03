@@ -10,28 +10,72 @@
 
 ### Assigning Variables
 
-#### `let`
+## `let`
 
-`let` contains values that are re-assignable, but they are not accessible before they are declared. Note the error below:
+`let` allows you to declare a block scope local variable:
+
+Take a look at the code here
 
   ```js
-  function letLogger() {
-    console.log(x);
-    let x = "hello";
+let x = 13;
+
+console.log(x); // x is 13
+
+function printX() {
+  let x = 22;
+  console.log(x); // x is 22
+}
+
+printX();
+
+console.log(x); // x is 13
+  ```
+  
+  Notice that inside of the function scope, x = 22, but as soon as it hits the end of its "block" or `}`, x is 13 again.
+  
+### <u> let vs var</u>
+
+**`var`** 
+
+  ```js
+function usingVar() {
+  for (var i = 0; i < 3; i++) {
+    console.log(i); // logs 0,1,2
   }
+  console.log(i); // logs 3
+}
 
-  letLogger();
+usingVar();
   ```
+  
+A variable declared using `var` will be accessible outside of the block it was declared in. 
+  
+**`let`**
 
-  ```output
-  > Uncaught ReferenceError: x is not defined
-    at letLogger (<anonymous>:2:17)
-    at <anonymous>:1:1
+  ```js
+function usingLet() {
+  for (let i = 0; i < 3; i++) {
+    console.log(i); // logs 0,1,2
+  }
+  console.log(i); // throws error
+}
+
+usingLet();
   ```
+  **Error:**
+  
+```output
+console.log(i);
+            ^
+ReferenceError: i is not defined
+```
+A variable declared using `let` will **not** be accessible outside of the block it was declared in. 
 
-To address the error, simply declare the variable prior to the `console.log` statement.
+For more info on `let`, checkout the [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let) 
+ 
 
-#### `const`
+
+## `const`
 
 `const` stands for "constant" and values may not be reassigned. Similar to `let`, `const` does not declare or initialize values until that line of code is run.
 
@@ -53,10 +97,12 @@ The array after using `.pop()`:
   ```output
   Dogs and cats: >(4) ["Cleo", "Jax", "Chance", "Buckaroo"]
   ```
+  
+ For more info on `const`, checkout the [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const) 
 
 - - -
 
-### `.forEach`
+## `.forEach`
 
 `.forEach` is used to call a function on each item in an array.
 
@@ -81,7 +127,7 @@ In the above example, `.forEach` is chained with the variable `arr`, returning b
 
 - - -
 
-### Template Literals
+## Template Literals
 
 `Template Literals` replace traditional string concatenation. Instead of quotes, backticks are utilized. Place holders are contained with `$` and the expression is wrapped in curly brackets:
 
@@ -98,7 +144,7 @@ console.log(fullName);
 
 - - -
 
-### `.map`
+## `.map`
 
 This method creates a new array from an existing array while leaving the original unchanged.
 
@@ -142,7 +188,7 @@ When used in conjunction with the `getGrades` function above, `.map` creates a n
 
 - - -
 
-### Arrow Functions
+## Arrow Functions
 
 Arrow functions provide a new syntax for writing functions in JavaScript. Using arrow functions creates code that is more concise and streamlined.
 

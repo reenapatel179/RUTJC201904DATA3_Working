@@ -1,7 +1,7 @@
 function init() {
   data = [{
     x: [1, 2, 3, 4, 5],
-    y: [1, 2, 4, 8, 16] }];
+    y: [0, 0, 0, 0, 0] }];
   var LINE = document.getElementById("plot");
   Plotly.plot(LINE, data);
 }
@@ -36,7 +36,7 @@ function getData(dataset) {
     break;
   default:
     x = [1, 2, 3, 4, 5];
-    y = [1, 2, 3, 4, 5];
+    y = [0, 0, 0, 0, 0];
     break;
   }
 
